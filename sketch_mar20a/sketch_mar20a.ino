@@ -21,7 +21,7 @@ String working() {
   x = x + 0.1; 
   float r;
 
-  r = 3.0 * sqrt( 1.0 - sqrt(fabs(x)) / sqrt(2.0));
+  r = 3 * (1 - cos(x));
   
   return(String("field1=")+String(r));
 }
